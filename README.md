@@ -12,7 +12,7 @@ Postgres can be reached at: `http://localhost:5432`
     -  E.g.`JDBC_USER=sudeshna JDBC_PASSWORD=my_password docker-compose up -d`
 
 **NOTE:** if `JDBC_USER` or `JDBC_PASSWORD` are not specified, it will default to `postgres`.
-Be sure to align postgres configuration in MCC service when attempting to connect to this container.
+Be sure to align postgres configuration in service when attempting to connect to this container.
 
 *To verfiy postgres is running as expected:*
 - Run `docker ps` to check container is running and find container name.
